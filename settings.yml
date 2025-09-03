@@ -13,4 +13,3 @@ image_proxy: true
 formats:
   - html
   - json
-```4.  Commit the file.
