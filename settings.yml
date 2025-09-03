@@ -9,7 +9,8 @@ server:
 
 image_proxy: true
 
-# Enable JSON format for n8n and other tools
-formats:
-  - html
-  - json
+search:
+  # options available for formats: [html, csv, json, rss]
+  formats:
+    - html
+    - json
