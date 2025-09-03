@@ -1,0 +1,16 @@
+# Using default settings and adding our own overrides
+use_default_settings: true
+
+server:
+  # This secret_key is just a placeholder.
+  # Koyeb's environment variable will override it.
+  secret_key: "ultrasecretkey"
+  limiter: false
+
+image_proxy: true
+
+# Enable JSON format for n8n and other tools
+formats:
+  - html
+  - json
+```4.  Commit the file.
