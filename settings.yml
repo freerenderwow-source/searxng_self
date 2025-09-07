@@ -4,7 +4,7 @@ use_default_settings: true
 server:
   # This secret_key is just a placeholder.
   # Koyeb's environment variable will override it.
-  secret_key: "ultrasecretkey"
+  secret_key: ${SECRET_KEY}
   limiter: false
 
 image_proxy: true
